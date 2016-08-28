@@ -19,7 +19,7 @@ To get started:
 
 1. Download/clone the repository
 2. To view the finished product, open `Titanic_Survival_Exploration.html` in a web browser
-3. To view the Jupyter notebook, it's recommended you install [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) and [Anaconda](https://www.continuum.io/downloads). Once those are installed, navigate to the project root directory and run one of the following command:
+3. To view the Jupyter notebook, it's recommended you install [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) and [Anaconda](https://www.continuum.io/downloads). Once those are installed, navigate to the project root directory and run the following command:
 ```bash
 jupyter notebook titanic_survival_exploration.ipynb
 ```
