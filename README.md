@@ -2,7 +2,7 @@
 # Project #0: Titanic Survival Exploration
 
 ## Introduction
-This is a project for Udacity's Machine Learning Nanodegree. It's a Jupyter notebook, along with starter Python code, that looks at data from who survived the sinking of the Titanic, and explores a manual decision-tree algorithm for predicting whether or someone survived based on features like sex, age, etc.
+This is a project for Udacity's Machine Learning Nanodegree. It's a Jupyter notebook, along with supporting Python code, that looks at data from who survived the sinking of the Titanic, and explores a manual decision-tree algorithm for predicting whether or someone survived based on features like sex, age, etc. The goal was to get a predictve accuracy greater than 80%.
 
 ## Concepts and Classes
 Concepts explored in this project:
@@ -19,7 +19,7 @@ To get started:
 
 1. Download/clone the repository
 2. To view the finished product, open `Titanic_Survival_Exploration.html` in a web browser
-3. To view the Jupyter notebook, make sure you've [installed Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) and 
+3. To view the Jupyter notebook, it's recommended you install [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) and [Anaconda](https://www.continuum.io/downloads). Once those are installed, navigate to the project root directory and run one of the following commands:
 ```bash
 jupyter notebook titanic_survival_exploration.ipynb
 ```
@@ -27,53 +27,4 @@ or
 ```bash
 ipython notebook titanic_survival_exploration.ipynb
 ```
-
-# Project 0: Introduction and Fundamentals
-## Titanic Survival Exploration
-
-### Install
-
-This project requires **Python 2.7** and the following Python libraries installed:
-
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
-
-Udacity recommends our students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
-
-### Code
-
-Template code is provided in the notebook `titanic_survival_exploration.ipynb` notebook file. Additional supporting code can be found in `titanic_visualizations.py`. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `titanic_survival_exploration/` (that contains this README) and run **one** of the following commands:
-
-```bash
-jupyter notebook titanic_survival_exploration.ipynb
-```
-or
-```bash
-ipython notebook titanic_survival_exploration.ipynb
-```
-
 This will open the iPython Notebook software and project file in your web browser.
-
-## Data
-
-The dataset used in this project is included as `titanic_data.csv`. This dataset is provided by Udacity and contains the following attributes:
-
-- `survival` : Survival (0 = No; 1 = Yes)
-- `pclass` : Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
-- `name` : Name
-- `sex` : Sex
-- `age` : Age
-- `sibsp` : Number of Siblings/Spouses Aboard
-- `parch` : Number of Parents/Children Aboard
-- `ticket` : Ticket Number
-- `fare` : Passenger Fare
-- `cabin` : Cabin
-- `embarked` : Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
