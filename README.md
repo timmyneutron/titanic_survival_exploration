@@ -1,5 +1,5 @@
 # Udacity Machine Learning Nanodegree
-# Project #0: Neighborhood Map
+# Project #0: Titanic Survival Exploration
 
 ## Introduction
 This is a project for Udacity's Machine Learning Nanodegree. It's a Jupyter notebook, along with starter Python code, that looks at data from who survived the sinking of the Titanic, and explores a manual decision-tree algorithm for predicting whether or someone survived based on features like sex, age, etc.
